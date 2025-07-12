@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.dindaka.dogslistchallenge.ui.screens.dogs_list.DogsListScreen
 import com.dindaka.dogslistchallenge.ui.theme.DogsListChallengeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DogsListChallengeTheme {
-
+                DogsListScreen()
             }
         }
     }
