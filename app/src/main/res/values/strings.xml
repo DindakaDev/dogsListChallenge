@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">dogsListChallenge</string>
+    <string name="title_dogs_we_love">Dogs We Love</string>
+    <string name="lbl_almost_years">Almost %1$s years</string>
+    <string name="lbl_empty_list">Empty List</string>
+    <string name="lbl_fetch_the_dogs_again">Fetch the Dogs Again</string>
+    <string name="lbl_ups_try_again_d">Ups!, try again! :D</string>
 </resources>
